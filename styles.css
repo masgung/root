@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 
 .container {
@@ -38,8 +39,14 @@ section h2 {
     margin-bottom: 20px;
 }
 
-.project {
+.portfolio-item {
     margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 footer {
